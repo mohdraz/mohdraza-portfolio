@@ -1,0 +1,37 @@
+.card {
+    border: 1px solid @color-primary;
+    padding: 1rem;
+
+    img {
+        width: 100%;
+        border-radius: 40%;
+        width: 50rem;
+        display: block;
+        margin: auto;
+    }
+
+    p {
+        font-size: 2rem;
+        padding: .5rem;
+    }
+
+    .buttonContainer {
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            color: @color-secondary;
+            font-size: 2rem;
+            font-weight: 700;
+            padding: 1rem 1.5rem;
+
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
+

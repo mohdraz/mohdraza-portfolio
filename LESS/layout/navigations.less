@@ -1,0 +1,39 @@
+#header {
+    padding-top: 1rem;
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            color: @color-primary;
+            font-size: 5rem;
+        }
+    }
+}
+
+.nav-list {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+
+    @media @mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        padding: 1rem;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        list-style: none;
+        margin: 2rem;
+        padding: 2rem;
+        font-size: 3rem;
+        font-weight: 700;
+        color: @color-tertiary;
+    }
+}
